@@ -1,11 +1,15 @@
-import logo from './logo.svg';
+
 import './App.css';
-import Product from './Utilities/Product/Product';
+import Header from './Utilities/Header/Header';
+import Shop from './Utilities/shop/Shop';
 
 function App() {
+
+
   return (
-    <div className="App">
-      <Product></Product>
+    <div >
+      <Header></Header>
+      <Shop></Shop>
     </div>
   );
 }

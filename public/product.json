@@ -3,68 +3,68 @@
         "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
         "name": "NIVEA MAN",
         "price": 43,
-        "img": "../src/Utilities/pictures/01product.png"
+        "img": "./pictures/01product.png"
     },
 
     {
         "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ea",
         "name": "NATURAL FOR MAN",
         "price": 120,
-        "img": "../src/Utilities/pictures/02product.png"
+        "img": "./pictures/02product.jpg"
     },
 
     {
         "id": "124e13b9-2d54-4b2f-a74d-a77b362d6e",
         "name": "GIIULLE FOAM",
         "price": 20,
-        "img": "../src/Utilities/pictures/03product.png"
+        "img": "./pictures/03product.jpg"
     },
 
     {
         "id": "124e13b9-2d54-4b2f-a74d-a77b362d6",
         "name": "ART SAVING",
         "price": 50,
-        "img": "../src/Utilities/pictures/04product.png"
+        "img": "./pictures/04product.jpg"
     },
 
     {
         "id": "124e13b9-2d54-4b2f-a74d-a77b362d",
         "name": "LE LAVO INC",
         "price": 55,
-        "img": "../src/Utilities/pictures/05product.png"
+        "img": "./pictures/05product.jpg"
     },
 
     {
         "id": "124e13b9-2d54-4b2f-a74d-a77b362",
         "name": "CREMO ORIGINAL",
         "price": 57,
-        "img": "../src/Utilities/pictures/06product.png"
+        "img": "./pictures/06product.jpg"
     },
 
     {
         "id": "124e13b9-2d54-4b2f-a74d-a77b36",
         "name": "WATSON'S MAN",
         "price": 42,
-        "img": "../src/Utilities/pictures/07product.png"
+        "img": "./pictures/07product.jpg"
     },
 
     {
         "id": "124e13b9-2d54-4b2f-a74d-a77b3",
         "name": "CREAM DA BARBA",
         "price": 30,
-        "img": "../src/Utilities/pictures/08product.png"
+        "img": "./pictures/08product.jpg"
     },
 
     {
         "id": "124e13b9-2d54-4b2f-a74d-a77b",
         "name": "INTESA BARBA",
         "price": 67,
-        "img": "../src/Utilities/pictures/09product.png"
+        "img": "./pictures/09product.jpg"
     },
     {
         "id": "124e13b9-2d54-4b2f-a74d-a7b",
         "name": "BUL DOG",
         "price": 70,
-        "img": "../src/Utilities/pictures/10product.png"
+        "img": "./pictures/10product.jpg"
     }
 ]
