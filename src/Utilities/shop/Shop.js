@@ -9,7 +9,8 @@ import './Shop.css'
 const Shop = () => {
     const [products, setProducts] = useState([]);
     const [cart, setCart] =useState([]);
-    // const [rNumber, setRnumber]=useState();
+    const [choiceCart, setChoiceCart] =useState([]);
+    const [number, setNumber]=useState([]);
 
     // console.log(rNumber);
     // const [selectedProduct, setProduct]=useState({});
@@ -19,11 +20,6 @@ const Shop = () => {
       .then(data => setProducts(data))
     }
       ,[])
-
-    //   useEffect(()=>{
-    //     const randomNumber = Math.floor(Math.random()*cart.length);
-    //     setRnumber(randomNumber);
-    //   },[])
 
     const buttonHandler =(selectedProduct)=>{
         // setCart(selectedProduct);
@@ -36,7 +32,25 @@ const Shop = () => {
 
     }
 
+    // Warning when more than four
+    
+
     // Random Number
+    const randomNumber =(cart)=>{
+        console.log(cart.length);
+       if(cart.length){
+        const number= Math.ceil(Math.random()*(cart.length));
+        setNumber(number);
+        const fNumber = number-1;
+        const product = cart[fNumber];
+        setChoiceCart([product])
+       }
+    }
+    // Empty Cart
+    const emptyCart =(cart)=>{
+        setCart([]);
+        setChoiceCart([])
+    }
     
 
     return (
@@ -54,9 +68,13 @@ const Shop = () => {
             {
                 cart.map(product=><Cart key={product.id} product={product}></Cart>)
             }
-        </div>
-        <div>
-           
+            <div className='random-empty-button'>
+                <button onClick={()=>randomNumber(cart)}>Make choice</button>
+                <button onClick={()=> emptyCart(cart)}>Empty Cart</button>
+            </div>
+            {
+                choiceCart.map(product=><Cart key={product.id} product={product}></Cart>)
+            }
         </div>
       </div>
     );

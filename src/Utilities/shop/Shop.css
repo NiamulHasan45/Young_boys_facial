@@ -15,3 +15,14 @@
     background-color: aquamarine;
     border-radius: 10px;
 }
+.random-empty-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.random-empty-button button{
+    margin: 20px;
+    padding: 10px 30px;
+    background-color: aquamarine;
+    border-radius: 10px;
+}
