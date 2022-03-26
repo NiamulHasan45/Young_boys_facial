@@ -1,4 +1,5 @@
 .product-container{
+    position: relative;
     width: 300px;
     height: 500px;
     background-color: rgba(221, 233, 233, 0.835);
@@ -13,5 +14,24 @@
     margin: 7px;
 }
 .product-info{
-    margin:10px auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.button{
+    width: 100%;
+    background-color: aquamarine;
+    border-radius: 0 0 10px 10px;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button:hover{
+    color: white;
+    background-color: rgba(0, 0, 255, 0.507);
+}
+.button p{
+    margin: 10px 5px;
 }

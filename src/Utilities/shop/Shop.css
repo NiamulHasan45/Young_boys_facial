@@ -8,3 +8,10 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
 }
+.selected-products{
+    margin:20px;
+    padding: 10px;
+    text-align: center;
+    background-color: aquamarine;
+    border-radius: 10px;
+}
