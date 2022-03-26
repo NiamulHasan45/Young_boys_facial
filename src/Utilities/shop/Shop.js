@@ -26,8 +26,13 @@ const Shop = () => {
         const id =selectedProduct.id;
         const result = cart.find((selectedProduct)=>selectedProduct.id===id);
         if(!result){
+          if(cart.length<4){
             const newCart = [...cart, selectedProduct];
             setCart(newCart);
+          }
+          else{
+            alert("Maximum exceeded1");
+          }
         }
 
     }
